@@ -3,9 +3,12 @@
     color: white;
     margin: auto;
     font-family: "Segoe UI", Arial, sans-serif;
-    width: 455px;
+    width: 440.5px;
     height: auto;
     padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
   }
 
   body.light {
