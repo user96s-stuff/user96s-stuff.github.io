@@ -123,4 +123,11 @@
   p {
     font-size: 18px;
   }
+
+  .box {
+  height: 800px;
+  width: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
 </style>
