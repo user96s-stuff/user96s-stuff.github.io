@@ -1,0 +1,126 @@
+  body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 440.5px;
+    height: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  body.light {
+    background-color: white;
+    color: black;
+  }
+
+  body.app {
+    width: 100%;
+    margin-left: calc(50% - 230px);
+    padding-left: 10px;
+  }
+
+  tile-s {
+    width: 102px;
+    height: 102px;
+    background-size: 50%
+  }
+
+  tile-m {
+    width: 210px;
+    height: 210px;
+    background-size: 50%
+  }
+
+  tile-w {
+    width: 432px;
+    height: 210px;
+    margin-top: -4px;
+    background-size: 30%;
+  }
+
+  tile-s, tile-m, tile-w {
+    background-color: #3e65ff;
+    margin: 4px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+  }
+
+  group {
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    margin: -1px;
+    margin-bottom: -4px;
+  }
+
+  g-thin {
+    width: 112px;
+    height: 225px;
+    margin: -1px;
+    margin-bottom: -4px;
+  }
+
+  lbl {
+    color: white;
+    margin-top: 180px;
+    margin-left: 12px;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    /* font-weight: 700; */
+  }
+
+  @font-face {
+    font-family: "Segoe UI";
+    src: url(segoeui.ttf);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 4px 12px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    margin: 6px 4px;
+  }
+
+  button:hover {
+    background-color: #202020;
+  }
+
+  button:active {
+    background-color: #404040;
+  }
+
+  h1 {
+    font-weight: 100;
+    font-size: 100px;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  h1.inactive {
+    color: #404040;
+  }
+
+  h1:hover {
+    cursor: default;
+  }
+
+  p {
+    font-size: 18px;
+  }
+</style>
