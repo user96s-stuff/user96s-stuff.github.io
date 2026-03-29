@@ -21,7 +21,7 @@ img {
 }
 
 a:hover .arrow {
-    background-position: 0 -13px!important
+    /* background-position: 0 -13px!important; */
 }
 
 @media screen and (max-width: 320px) {
@@ -564,7 +564,7 @@ fieldset {
 }
 
 .menu:hover,.store:hover,.list #content li a:hover,.list .withimage:hover,.applist li:hover:nth-child(n),.ipodlist li:hover:nth-child(n) {
-    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#058cf5),to(#015fe6));
+    /* background: -webkit-gradient(linear,0% 0%,0% 100%,from(#058cf5),to(#015fe6)); */
 }
 
 .ipodlist li:hover:nth-child(n) .name,.ipodlist li:hover:nth-child(n) .time {
@@ -822,7 +822,7 @@ li:last-child.store .image,.store:last-child a {
 }
 
 .applist a:hover .name,.applist a:hover .starcomment,.applist a:hover .comment,.applist a:hover .price {
-    color: white;
+    /* color: white; */
     text-shadow: none
 }
 
